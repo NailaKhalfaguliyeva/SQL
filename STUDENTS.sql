@@ -85,3 +85,30 @@ UPDATE SchoolStudents
 SET [course]=2
 WHERE [name]='Naila'
 
+UPDATE SchoolStudents
+SET [course]=1
+WHERE [name]='Lala'
+
+UPDATE SchoolStudents
+SET [course]=2
+WHERE [name]='Dilbar'
+
+UPDATE SchoolStudents
+SET [course]=4
+WHERE [name]='Hamid'
+
+UPDATE SchoolStudents
+SET [course]=2
+WHERE [name]='Aysel'
+
+UPDATE SchoolStudents
+SET [course]=3
+WHERE [name]='Narmin'
+
+UPDATE SchoolStudents
+SET [course]=2
+WHERE [name]='Nuran'
+
+SELECT*
+FROM SchoolStudents
+WHERE [course] = 2
